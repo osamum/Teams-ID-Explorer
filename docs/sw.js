@@ -16,7 +16,11 @@ var assetsToCache = [
 self.addEventListener('install', (e)=> {
     e.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
-            return cache.addAll(assetsToCache);
+            try{
+                return cache.addAll(assetsToCache);
+            }catch(err){
+                console.log(err.message);
+            }
         })
     );
 });
