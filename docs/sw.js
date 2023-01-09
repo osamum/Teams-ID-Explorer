@@ -13,7 +13,7 @@ var assetsToCache = [
 ];
 
 //インストール イベント (キャッシュを行う)
-self.addEventListener('install', function (e) {
+self.addEventListener('install', (e)=> {
     e.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
             return cache.addAll(assetsToCache);
@@ -22,7 +22,7 @@ self.addEventListener('install', function (e) {
 });
 
 //アクティベイト イベント (古いキャッシュを削除する)
-self.addEventListener('activate', function(e) {
+self.addEventListener('activate', (e)=> {
     e.waitUntil(
         caches.keys().then(function(keyList) {
             return Promise.all(keyList.map(function(key) {
@@ -37,7 +37,7 @@ self.addEventListener('activate', function(e) {
 });
 
 //取り出し時のイベント (キャッシュから取り出す)
-self.addEventListener('fetch', function(e) {
+self.addEventListener('fetch', (e)=> {
     e.respondWith(
     caches.match(e.request).then(function(response) {
         return response || fetch(e.request);
