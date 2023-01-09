@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams ID Explorer</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/index.min.css">
+    <script src="https://alcdn.msauth.net/browser/2.30.0/js/msal-browser.js"
+        integrity="sha384-o4ufwq3oKqc7IoCcR08YtZXmgOljhTggRwxP2CLbSqeXGtitAxwYaUln/05nJjit"
+        crossorigin="anonymous"></script>
+
+    <script src="scripts/aadAuth.min.js"></script>
+    <script src="scripts/graph.min.js"></script>
+    <script src="scripts/home-cooking.min.js"></script>
+    <script src="scripts/localize.min.js"></script>
+</head>
+
+<body>
+    <div id="ground">
+        <dialog id="accountInfo"></dialog>
+        <div style="display:flex;">
+            <div>
+                <h1>Teams ID Explorer</h1>
+            </div>
+            <div id="loginedArea" style="display: none;">
+                <a id="showAccountInfo" href="javascript:showProfileDialog()">アカウント情報の表示</a>
+                <br>
+                <a id="logOffButton" href="javascript:logoff()">ログオフ</a>
+            </div>
+            <div id="beforeLogineArea" style="display: block; ">
+                <a id="logOnButton" href="javascript:signOn()">ログイン</a>
+            </div>
+        </div>
+        <div id="manipulateArea">
+
+            <div id="treeView_area">
+
+                <homecook-tab id="treeTab" tabs="2" tab-width="80" tab-height="30">
+                    <div id="teamTab" slot="tab0" caption="チーム" style="width: 100%;">
+                        <div id="treeView" class="treeView"></div>
+                    </div>
+                    <div id="chatTab" slot="tab1" caption="チャット">
+                        <div id="chatListView" class="treeView"></div>
+                    </div>
+                </homecook-tab>
+            </div>
+
+            <homecook-separater id-leftUp="treeView_area" id-rightDown="restAPI_area" direction="horizontal"
+                minSize-rightDown="200" minWidth-leftUp="200" style="width: 5px;height: 100%;"></homecook-separater>
+
+            <div id="restAPI_area">
+                <div style="margin-bottom: 10px;">
+                    <span id="reqMethod"
+                        style="width: 48px;text-align: center; font-weight:bold;margin-left: 10px;margin-right: 10px;"></span><input
+                        type="text" id="reqEndpoint"></span>
+                    <button id="copyButton" title="Copy">📋</button>
+                    <button id="sendGraphExpButton" title="Send Graph Explorer a Endpoint.">👉</button>
+                    &nbsp;<a id="referenceLink" style="font-weight:bold;" target="_blank">？</a>
+                </div>
+
+                <homecook-tab id="httpTab" tabs="2" tab-width="100" tab-height="30">
+
+                    <div id="ReqResBody_area" slot="tab0" caption="HTTP"
+                        style="height: 600px;margin-left: 20px;margin-top: 10px;">
+                        <div>Request body :</div>
+                        <div id="requestView" title="Request body" contenteditable="true">
+                            <pre id="innerRequestView"></pre>
+                        </div>
+                        <homecook-separater id-leftUp="requestView" id-rightDown="responseView" direction="vartical"
+                            style="width: 100%;height: 5px;"></homecook-separater>
+                        <div>Response body :</div>
+                        <div title="Response body" id="responseView" contenteditable="true">
+                            <pre id="innerResponseView"></pre>
+                        </div>
+                    </div>
+                    <div id="formated_area" slot="tab1" caption="Feature"></div>
+                </homecook-tab>
+            </div>
+
+        </div>
+    </div>
+    <dialog id="messageForm">
+        <h3>Post new message.</h3>
+        <div id="messageEditor" contenteditable="true" style="width: 95%;height: 50px;padding:5px;overflow-y: scroll;">
+        </div>
+        <div style="margin-top: 20px;">
+            <button id="cancelMessage">Cancel</button>
+            &nbsp;
+            <button id="postMessage">POST</button>
+        </div>
+    </dialog>
+</body>
+<script src="scripts/index.min.js"></script>
+<template id="profilePictureUI">
+    <h2>Profile picture</h2>
+    <span style="font-weight: bold;">GET : </span>
+    <input style="width: 80%;" data-app-option="{'value':'endpoint'}">
+    <button data-app-option="{'onclick':'sendClipboard'}">📋</button>
+    <button data-app-option="{'onclick':'sendGraphExp'}">👉</button>
+    <a target="_blank" style="font-weight: bold; margin-left: 10px;" data-app-option="{'href':'docsUrl'}">?</a>
+    <img data-app-option="{'src':'imgSrc'}"/>
+</template>
+<script>
+    if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('sw.js');
+    } 
+</script>
+</html>
