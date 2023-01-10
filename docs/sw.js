@@ -2,14 +2,14 @@
 const CACHE_NAME = 'teamsIDexplorer-asset0109';
 //キャッシュするアセット類を指定
 var assetsToCache = [
-    '/',
-    '/index.html',
-    '/css/index.min.css',
-    '/scripts/index.min.js',
-    '/scripts/aadAuth.min.js',
-    '/scripts/graph.min.js',
-    '/scripts/home-cooking.min.js',
-    '/scripts/localize.min.js',
+    './',
+    './index.html',
+    './css/index.min.css',
+    './scripts/index.min.js',
+    './scripts/aadAuth.min.js',
+    './scripts/graph.min.js',
+    './scripts/home-cooking.min.js',
+    './scripts/localize.min.js',
 ];
 
 //インストール イベント (キャッシュを行う)
