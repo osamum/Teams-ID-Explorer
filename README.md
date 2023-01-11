@@ -4,7 +4,7 @@
 
 Teams ID Explorer は Microsoft Teams 用の Graph API の呼び出し結果を簡単に確認するためのツールです。
 
-Teams ID Explorer を使用すると、[Graph Explorer](https://developer.microsoft.com/ja-jp/graph/graph-explorer) にいちいちエンドポイントを記述しなくても、GUI を使用してチームやチャネル、チャットに関係する Graph API の呼び出し結果を確認することができます。
+Teams ID Explorer を使用すると、[Graph Explorer](https://developer.microsoft.com/ja-jp/graph/graph-explorer) にエンドポイントを記述しなくても、GUI を使用して Microsoft Teams のリソースであるチームやチャネル、チャットに関係する Graph API の呼び出し結果を確認することができます。
 
 また、Teams ID Explorer が API の呼び出しに使用したリクエスト URI を Graph Explorer に送ったり、API リファレンス内の該当するAPI のドキュメントに直接ジャンプして内容を確認することができます。
 
@@ -29,8 +29,19 @@ Teams ID Explorer を使用すると、[Graph Explorer](https://developer.micros
 <br >
 
 ## Teams ID Explorer の使い方
+
+Web ブラウザーで https://osamum.github.io/Teams-ID-Explorer/ にアクセスします。
+
 　
-以下の利用案内ドキュメンをご参照ください。
+Teams ID Explorer は Web アプリケーションですが、PWA (Progressive web apps) としてローカル環境にインストールして使用することもできます。
+
+<img src="images/pwa-jp.png" width="700">
+
+Web ブラウザーの言語設定が日本語 UI が、それ以外の言語の場合は英語 UI が表示されます。
+
+具体的な機能については、以下の機能説明ドキュメントをご参照ください。
+
+
 
 
 <br >
