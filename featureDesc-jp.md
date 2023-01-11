@@ -21,7 +21,7 @@ Teams ID Explorer の使用を開始するには、[Teams ID Explorer がホス�
 
 画面に Teams ID Explorer の UI が表示されるので、画面左上の \[**ログイン**\] リンクをクリックし、Office 356 の管理者アカウントで認証を行ってください。
 
-<img src="images/login-jp.png" width="700px">
+<img src="images/login-jp.png" width="700px" bordar="1">
 
 ログインの際、Azure Active の **アクセス許可の要求** ダイアログボックスが表示される場合は \[承諾\] ボタンをクリックしてください。
 
