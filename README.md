@@ -90,4 +90,4 @@ If the web browser's language setting is Japanese UI, otherwise the English UI i
 
 For specific features, please refer to the following feature description document.
 
-* [**How to use Teams ID Explorer**](featureDesc-jp.md)
+* [**How to use Teams ID Explorer**](featureDesc-en.md)
