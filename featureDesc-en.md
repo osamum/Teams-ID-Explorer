@@ -110,7 +110,7 @@ In addition, the functions of the links displayed on the \[**Feature**\] tab are
 <br>
 
 ---
-🏠 [**Readme に戻る**](README.md)
+🏠 [**Back to Readme**](README.md)
 
 
 
