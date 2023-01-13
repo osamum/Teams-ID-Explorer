@@ -60,7 +60,7 @@ You can also send the request URI used by the Teams ID Explorer to call the API 
 
 Developer tool for easy find any id of Microsoft Teams Graph API.
 
-<img src="images/temsIDX_jp.png" width="700">
+<img src="images/temsIDX_en.png" width="700">
 
 <br >
 
@@ -84,7 +84,7 @@ Access https://osamum.github.io/Teams-ID-Explorer/ in a web browser.
 
 Teams ID Explorer is a web application, but can also be installed and used locally as a PWA (Progressive web app)
 
-<img src="images/pwa-jp.png" width="700">
+<img src="images/pwa-en.png" width="700">
 
 If the web browser's language setting is Japanese UI, otherwise the English UI is displayed.
 
