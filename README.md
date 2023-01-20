@@ -28,6 +28,13 @@ Teams ID Explorer を使用すると、[Graph Explorer](https://developer.micros
 
     Teams ID Explorer は Web アプリケーションであり、Github Pages でホストされています。https://github.io に接続可能なインターネット環境をご用意ください。
 
+* **Azure Active Directory での管理者の同意**
+
+    Teams ID Explorer の初回ログイン時に Azure Active Directory で管理者の同意を行ってください。
+
+    具体的な作業は、以下をご参照ください。
+
+    * [**Teams ID Explorer の使い方 - 利用開始方法**](featureDesc-jp.md#%E5%88%A9%E7%94%A8%E9%96%8B%E5%A7%8B%E6%96%B9%E6%B3%95)
 
 <br >
 
