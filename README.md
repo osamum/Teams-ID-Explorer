@@ -83,6 +83,14 @@ Developer tool for easy find any id of Microsoft Teams Graph API.
 
     Teams ID Explorer is a web application and is hosted on Github Pages. Please prepare an Internet environment that can connect to the https://github.io.
 
+* **Admin consent in Azure Active Directory**
+
+    Please provide admin consent in Azure Active Directory on first login to Teams Identity Explorer.
+
+    Please refer to the following for specific work.
+
+    * [**How to use Teams ID Explorer - How to get started**](featureDesc-en.md#how-to-get-started)
+
 <br>
 
 ## How to use Teams ID Explorer
