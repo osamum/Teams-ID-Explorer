@@ -30,7 +30,7 @@ Teams ID Explorer の利用を開始するには、Azure Active Directory にて
 
 以上で**管理者の同意**の作業は完了です。
 
-再度 [Teams ID Explorer](https://osamum.github.io/Teams-ID-Explorer/) にアクセスし、画面のリフレッシュし、**ログイン** リンクをクリックすると UI に
+再度 [Teams ID Explorer](https://osamum.github.io/Teams-ID-Explorer/) にアクセスし、画面のリフレッシュし、**ログイン** リンクをクリックすると UI に Teams の情報がロードされ、利用を開始することができます。
 
 <br>
 
