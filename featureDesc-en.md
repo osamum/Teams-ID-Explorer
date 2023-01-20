@@ -2,6 +2,41 @@
 
 Learn how to use Teams ID Explorer.
 
+## How to get started
+
+To get started with Teams ID Explorer, you need to grant admin consent in Azure Active Directory.
+
+The steps are follows:
+
+1. Access [Teams ID Explorer](https://osamum.github.io/Teams-ID-Explorer/) in a web browser.
+
+2. Click the \[**Login**\] link on the top left of the screen and log in with your Office 365 administrator account.
+
+    When logging in, a dialog box will appear asking for administrator consent, so click the \[**Accept**\] button. 
+
+    <img src="images/login-en.png" width="700px" >
+
+3. Click the \[OK\] button in the message box displayed in Teams ID Explorer, or log in to the [**Azure portal**](https://portal.azure.com) with an administrator account on a web browser and display the \[Azure Active Directory\] - \[[**Enterprise Applications**](https://portal.azure.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview/menuId~/)\] screen.
+
+4. A list of applications will be displayed. Click **Teams-ID-Explorer**.
+
+5. You will be taken to the Teams-ID-Explorer **overview** screen, so click \[**Permission**\] from the menu bar on the left side of the screen.
+
+6. The **Permission** screen is displayed. Click the \[**Grant admin consent for (current tenant name)**\] button.
+
+    <img src="images/adminConsent-en.png" width="700px">
+
+    A pop-up dialog box will appear, click the \[**Accept**\] button.
+
+This completes the work for **administrator consent**.
+
+Visit the [Teams ID Explorer](https://osamum.github.io/Teams-ID-Explorer/) again, refresh the screen, click the **login** link and the UI will load with your Teams information and you can start using it.
+
+
+<br>
+
+## Features list
+
 1. [login](#1-%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3)
 2. [**View account information** link](#-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E6%83%85%E5%A0%B1%E3%81%AE%E8%A1%A8%E7%A4%BA-%E3%83%AA%E3%83%B3%E3%82%AF)
 3. [\[**Team**\] tab](#-%E3%83%81%E3%83%BC%E3%83%A0-%E3%82%BF%E3%83%96)
