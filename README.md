@@ -1,15 +1,5 @@
 # Teams-ID-Explorer (Debug 中)
 
-【重要】
-
-AAD テナントへの登録が自動で行われない問題が発生しており現在はまだ動作しません。
-
-解決後お知らせします。
-
----
-
-
-
 \[[日本語]((#teams-id-explorer-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6))\] /\[[English](#about-teams-id-explorer)\]
 
 ## Teams ID Explorer について
