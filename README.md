@@ -1,5 +1,3 @@
-# Teams-ID-Explorer (Debug 中)
-
 \[[日本語]((#teams-id-explorer-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6))\] /\[[English](#about-teams-id-explorer)\]
 
 ## Teams ID Explorer について
