@@ -51,7 +51,7 @@ Teams ID Explorer は Web アプリケーションですが、PWA (Progressive w
 
 Web ブラウザーの言語設定が日本語 UI が、それ以外の言語の場合は英語 UI が表示されます。
 
-具体的な機能については、以下の機能説明ドキュメントをご参照ください。
+利用開始方法と具体的な機能については、以下の機能説明ドキュメントをご参照ください。
 
 * [**Teams ID Explorer の使い方**](featureDesc-jp.md)
 
@@ -98,6 +98,6 @@ Teams ID Explorer is a web application, but can also be installed and used local
 
 If the web browser's language setting is Japanese UI, otherwise the English UI is displayed.
 
-For specific features, please refer to the following feature description document.
+How to start using and for specific features, please refer to the following feature description document.
 
 * [**How to use Teams ID Explorer**](featureDesc-en.md)

@@ -2,6 +2,40 @@
 
 Teams ID Explorer の使い方について説明します。
 
+## 利用開始方法
+
+Teams ID Explorer の利用を開始するには、Azure Active Directory にて管理者の同意を与える必要があります。
+
+手順は以下のとおりです。
+
+1. Web ブラウザーで [Teams ID Explorer](https://osamum.github.io/Teams-ID-Explorer/) にアクセスします
+
+2. 画面左上の \[**ログイン**\] リンクをクリックし、Office 365 の管理者アカウントでログインします
+
+    ログインの際、管理者の同意を求めるダイアログボックスが表示されるので \[**承諾**\] ボタンをクリックします    
+
+    <img src="images/login-jp.png" width="700px" >
+
+3. Teams ID Explorer に表示されるメッセージボックスの \[OK\] ボタンをクリックするか、Web ブラウザーで [**Azure ポータル**](https://portal.azure.com) に管理者アカウントでログインし、\[Azure Directory\] - \[[**エンタープライズアプリケーション**](https://portal.azure.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview/menuId~/) \] の画面を表示します
+
+4. アプリケーションの一覧が表示されるので、**Teams-ID-Explorer** をクリックします
+
+5. Teams-ID-Explorer の概要画面に遷移するので、画面左側のメニューバーより \[**アクセス許可**\] をクリックします
+
+6. **アクセス許可** の画面が表示されるので、\[(現在のテナント名) **に管理者の同意を与えます**\] ボタンをクリックします
+
+    <img src="images/adminConsent-jp.png" width="700px">
+
+    ポップアップ ダイアログボックスが表示されるので、\[**承諾**\] ボタンをクリックしてください。
+
+以上で**管理者の同意**の作業は完了です。
+
+再度 [Teams ID Explorer](https://osamum.github.io/Teams-ID-Explorer/) にアクセスし、画面のリフレッシュし、**ログイン** リンクをクリックすると UI に
+
+<br>
+
+## 機能一覧
+
 1. [ログイン](#1-%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3)
 2. [**アカウント情報の表示**リンク](#-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E6%83%85%E5%A0%B1%E3%81%AE%E8%A1%A8%E7%A4%BA-%E3%83%AA%E3%83%B3%E3%82%AF)
 3. [\[**チーム**\] タブ](#-%E3%83%81%E3%83%BC%E3%83%A0-%E3%82%BF%E3%83%96)
