@@ -1,5 +1,5 @@
 //キャッシュの名前
-const CACHE_NAME = 'teamsIDexplorer-asset0121';
+const CACHE_NAME = 'teamsIDexplorer-asset0129';
 //キャッシュするアセット類を指定
 var assetsToCache = [
     './',
