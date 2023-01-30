@@ -53,6 +53,20 @@ Web ブラウザーの言語設定が日本語 UI が、それ以外の言語の
 
 <br >
 
+## その他
+
+Microsoft Teams  用 Graph API の使い方については、ハンズオン資料を用意してありますのでご活用ください。
+
+* [**Microsoft Teams 用 Microsoft Graph API を使用するための簡易チュートリアル**](https://github.com/osamum/Firstway_to_MSTeamsGraphAPI)
+
+    Teams アプリ全般については以下のハンズオン資料を用意してあります。
+
+    * [**Microsoft Teams 開発者向け簡易チュートリアル**](https://github.com/osamum/Easyway-for-MSTeamsAppDev)
+
+教育業界に特化した Microsoft Teams Education 向けの開発ハンズオン資料は以下をご活用ください。 Graph API の利用をメインに記述してあります。
+
+* [**Microsoft Teams Education 開発者向け簡易チュートリアル**](https://github.com/osamum/Easyway-for-MSTeams_edu-AppDev)
+
 ---
 
 ## About Teams ID Explorer
@@ -104,3 +118,20 @@ If the web browser's language setting is Japanese UI, otherwise the English UI i
 How to start using and for specific features, please refer to the following feature description document.
 
 * [**How to use Teams ID Explorer**](featureDesc-en.md)
+
+<br>
+
+## See also
+
+Hands-on materials are available on how to use the Graph API for Microsoft Teams. 
+(*) Sorry,These contents are Japanese only. But you can read these contents with translate feature in web browser.
+
+* [**A quick tutorial on using the Microsoft Graph API for Microsoft Teams**](https://github.com/osamum/Firstway_to_MSTeamsGraphAPI)
+
+    The following hands-on materials are available for Teams apps in general.
+
+    * [**Microsoft Teams Quick Tutorial for Developers**](https://github.com/osamum/Easyway-for-MSTeamsAppDev)
+
+Please use the following hands-on development materials for Microsoft Teams Education, which are specific to the education industry. The main focus is on using the Graph API.
+
+* [**Microsoft Teams for Education Quick Tutorial for Developers**](https://github.com/osamum/Easyway-for-MSTeams_edu-AppDev)
